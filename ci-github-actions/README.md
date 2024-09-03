@@ -17,7 +17,7 @@ Para rodar os testes localmente:
 - **Python**:
     ```bash
     pip install -r requirements.txt
-    pytest
+    inserira linha "pytest" no requirements.txt
     ```
 
 ## Pipeline CI
