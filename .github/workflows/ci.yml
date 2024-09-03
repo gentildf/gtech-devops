@@ -17,7 +17,7 @@ jobs:
         pip install flake8
     - name: Lint with flake8
       run: |
-        flake8 src/ tests/
+        flake8 ci-github-actions/src/ ci-github-actions/tests/
 
   test:
     runs-on: ubuntu-latest
