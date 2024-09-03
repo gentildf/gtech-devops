@@ -1,8 +1,11 @@
-from app import add  # importando modulo
+
 import sys
 import os
+sys.path.insert(0, os.path.abspath
+    (os.path.join(os.path.dirname(__file__), '../src')))
+from app import add  # importando modulo
 import unittest
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../src')))
+
 
 class TestApp(unittest.TestCase):
     def test_add(self):
